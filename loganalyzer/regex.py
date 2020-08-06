@@ -1,15 +1,17 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Aug  2 17:03:11 2020
 
-@author: wazhen
+"""
+(?!) - negative lookahead
+(?=) - positive lookahead
+(?<=) - positive lookbehind
+(?<!) - negative lookbehind
 """
 
 import re
 import prehandle
 import os
 
-p=os.path.dirname(os.path.abspath(__file__))+'\keywords.txt'
+#p=os.path.dirname(os.path.abspath(__file__))+'\keywords.txt'
+p=os.getcwd()+'/keywords.txt'
 
 class Xlook(prehandle.ParaValid):
     _fields=["kwords","lookw", "pat"]

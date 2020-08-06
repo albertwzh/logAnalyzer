@@ -1,15 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Aug  5 21:20:11 2020
-
-@author: wazhen
-"""
 import filelocater
 import regex
 import re
 import os
 
-p=os.path.dirname(os.path.abspath(__file__))+'\logs'
+#p=os.path.dirname(os.path.abspath(__file__))+'\logs'
+p=os.getcwd()+'/logs'
 
 if __name__ == '__main__':
     def find_by():
