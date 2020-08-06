@@ -1,0 +1,38 @@
+104799(105175)  04/27/2020 13:21:25.281
+HttpLog: session ID has not been set yet.
+104799(105175)  04/27/2020 13:21:25.281
+POST /SM/7/ws HTTP/1.1
+content-type: text/xml; charset=UTF-8
+cookie: JSESSIONID=2D8C01DD544F5F8623789FA8F6C3ECAD; Path=/SM; HttpOnly=null
+soapaction: "RetrieveList"
+user-agent: Axis2
+authorization: User: EMAIL_Integration, Password:******
+host: cdvpemsa01:13085
+content-length: 429
+
+104799(105175) 5DD2320D386C7D0C35F26C0B532B79D8 04/27/2020 13:21:25.572
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body xmlns:ns0="http://schemas.hp.com/SM/7"><ns0:RetrieveEventoutListRequest><ns0:keys query="evtype=&quot;saksham_email&quot;"/></ns0:RetrieveEventoutListRequest></soapenv:Body></soapenv:Envelope>
+104799(105175) 5DD2320D386C7D0C35F26C0B532B79D8 04/27/2020 13:21:27.487
+HTTP/1.1 200
+Set-Cookie: JSESSIONID=5DD2320D386C7D0C35F26C0B532B79D8; Path=/SM; HttpOnly
+Keep-Alive: timeout=1200000, max=1000
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 10445
+Date: Mon, 27 Apr 2020 07:51:27 GMT
+
+104799(105175) 5DD2320D386C7D0C35F26C0B532B79D8 04/27/2020 13:21:27.487
+<?xml version="1.0" encoding="utf-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body><RetrieveEventoutListResponse xmlns="http://schemas.hp.com/SM/7" xmlns:cmn="http://schemas.hp.com/SM/7/Common" xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" message="scjsdesc - 321: Success" CHennai Interaction^&lt;html&gt;&lt;table cellpadding="10" cellspacing="10" width="100%"&gt;
+
+104799(105176) 6C9036A6A88BFC6C7C325C28A19D3F3D 04/27/2020 13:21:28.353
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body xmlns:ns0="http://schemas.hp.com/SM/7">
+104799(105176)  04/27/2020 13:21:29.258
+HttpLog: session ID has not been set yet.
+104799(105176)  04/27/2020 13:21:29.258
+HTTP/1.1 500
+Set-Cookie: JSESSIONID=6C9036A6A88BFC6C7C325C28A19D3F3D; Path=/SM; HttpOnly
+Connection: close
+SMSession: close
+Content-Type: text/xml;charset=UTF-8
+Date: Mon, 27 Apr 2020 07:51:29 GMT
+

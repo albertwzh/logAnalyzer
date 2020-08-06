@@ -1,0 +1,10 @@
+failed
+fail
+error
+violation
+false
+exit.error
+invalid
+SOAP
+connector
+JRTE
