@@ -22,16 +22,16 @@
 104799(105235) 04/27/2020 13:21:29  RTE I sql total 0.214  call#:989 -->sqociDisconnect:OCIServerDetach
 104799(105235) 04/27/2020 13:21:29  RTE I Thread termination cleanup complete.  Thread was active for 0 days,00:00:01. Threads remaining: 1 of 50
 104799(105235) 04/27/2020 13:21:29 JRTE D End of TopazThread. 6C9036A6A88BFC6C7C325C28A19D3F3D
-104799(104888) 04/27/2020 13:21:47 JRTE D Received Request: RequestingNode:cdvpemsa01-104055 RequestId: 12 Action: 1 ClassName:NodeTask
-104799(104888) 04/27/2020 13:21:47 JRTE D processGetNodes() Node:  PID:104799 HttpPort:13085 ActiveSessions:1 BlockedOnLowMemory:false Quiesced:false 
+104799(104888) 04/27/2020 13:21:47 JRTE D Received Request: RequestingNode:xxxx-104055 RequestId: 12 Action: 1 ClassName:NodeTask
+104799(104888) 04/27/2020 13:21:47 JRTE D processGetNodes() Node:  PID:104799 HttpPort:xxxx ActiveSessions:1 BlockedOnLowMemory:false Quiesced:false 
 104799(104888) 04/27/2020 13:21:47 JRTE D Task NodeTask completed in 0 ms. 
-104799(104888) 04/27/2020 13:21:47 JRTE D Server's Response for Request: RequestingNode:cdvpemsa01-104055 RequestId: 12 Action: 1 ClassName:NodeTask  Response:Node:  HttpPort:13085 ActiveSessions:1 BlockedOnLowMemory:false Quiesced:false
-104799(104799) 04/27/2020 13:22:17 JRTE D Received Request: RequestingNode:cdvpemsa01-104055 RequestId: 13 Action: 1 ClassName:NodeTask
-104799(104799) 04/27/2020 13:22:17 JRTE D processGetNodes() Node:  PID:104799 HttpPort:13085 ActiveSessions:1 BlockedOnLowMemory:false Quiesced:false 
+104799(104888) 04/27/2020 13:21:47 JRTE D Server's Response for Request: RequestingNode:xxxx-104055 RequestId: 12 Action: 1 ClassName:NodeTask  Response:Node:  HttpPort:xxxx ActiveSessions:1 BlockedOnLowMemory:false Quiesced:false
+104799(104799) 04/27/2020 13:22:17 JRTE D Received Request: RequestingNode:xxxx-104055 RequestId: 13 Action: 1 ClassName:NodeTask
+104799(104799) 04/27/2020 13:22:17 JRTE D processGetNodes() Node:  PID:104799 HttpPort:xxxx ActiveSessions:1 BlockedOnLowMemory:false Quiesced:false 
 104799(104799) 04/27/2020 13:22:17 JRTE D Task NodeTask completed in 0 ms. 
-104799(104799) 04/27/2020 13:22:17 JRTE D Server's Response for Request: RequestingNode:cdvpemsa01-104055 RequestId: 13 Action: 1 ClassName:NodeTask  Response:Node:  PID:104799 HttpPort:13085 ActiveSessions:1 BlockedOnLowMemory:false Quiesced:false 
-104799(104799) 04/27/2020 13:22:27 Counting down[http-nio-13085-ClientPoller-1] latch=1
+104799(104799) 04/27/2020 13:22:17 JRTE D Server's Response for Request: RequestingNode:xxxx-104055 RequestId: 13 Action: 1 ClassName:NodeTask  Response:Node:  PID:104799 HttpPort:xxxx ActiveSessions:1 BlockedOnLowMemory:false Quiesced:false 
+104799(104799) 04/27/2020 13:22:27 Counting down[http-nio-xxxx-ClientPoller-1] latch=1
 104799(104799) 04/27/2020 13:22:47 JRTE D Received Request:  RequestId: 14 Action: 1 ClassName:NodeTask
-104799(104799) 04/27/2020 13:22:47 JRTE D processGetNodes() Node:  PID:104799 HttpPort:13085 ActiveSessions:1 BlockedOnLowMemory:false Quiesced:false 
+104799(104799) 04/27/2020 13:22:47 JRTE D processGetNodes() Node:  PID:104799 HttpPort:xxxx ActiveSessions:1 BlockedOnLowMemory:false Quiesced:false 
 104799(104799) 04/27/2020 13:22:47 JRTE D Task NodeTask completed in 0 ms. 
-104799(104799) 04/27/2020 13:22:47 JRTE D Server's Response for Request: RequestingNode:cdvpemsa01-104055 RequestId: 14 Action: 1 ClassName:NodeTask  Response:Node: 
+104799(104799) 04/27/2020 13:22:47 JRTE D Server's Response for Request: RequestingNode:xxxx-104055 RequestId: 14 Action: 1 ClassName:NodeTask  Response:Node: 
